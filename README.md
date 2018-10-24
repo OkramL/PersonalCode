@@ -45,11 +45,11 @@ if(pc.getCodeIsValid()) {
   }
 </pre>
 
-  <h4>Result<h4>
-    Tulemus tuleb erinev, kuna tegemist on juhuslikkusega.
-    <pre>
-      48105215847
-    </pre>
+<h4>Result<h4>
+Tulemus tuleb erinev, kuna tegemist on juhuslikkusega.
+<pre>
+48105215847
+</pre>
 
 <h2>Isikukoodi genereerimiseks aastate vahemikus</h2>
 
@@ -62,7 +62,7 @@ if(pc.getCodeIsValid()) {
   }
 </pre>
 
-  <h4>Result<h4>
-    <pre>
-      Isikukood aastate 1981 ja 1981 vahel k.a. => 38112153961
-    </pre>
+<h4>Result<h4>
+<pre>
+  Isikukood aastate 1981 ja 1981 vahel k.a. => 38112153961
+</pre>
