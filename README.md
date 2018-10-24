@@ -45,7 +45,7 @@ if(pc.getCodeIsValid()) {
   }
 </pre>
 
-<h4>Result<h4>
+<h4>Result</h4>
 Tulemus tuleb erinev, kuna tegemist on juhuslikkusega.
 <pre>
 48105215847
