@@ -14,6 +14,23 @@ if(pc.getCodeIsValid()) {
   System.out.println(pc.getErrorText());
 }
 </pre>
+<h4>Result</h4>
+<pre>
+Personalcode 48105215716
+Birth date 21.05.1981
+Day 21
+Month 05
+Full year 1981
+Short year 81
+Sex W
+Gender number 4
+Hospital code 571
+Hospital name Valga Haigla
+Control code 6
+Age today 37
+Child # in day 1
+</pre>
+
 
 <h2>Isikukoodi genereerimiseks soo, sünniaja ja haigla koodiga</h2>
 
