@@ -3,6 +3,7 @@ Eesti isikukoodi kontrollimiseks, info saamiseks ja juhusliku isikukoodi generee
 
 Isikukoodi kontrollimiseks ja info saamiseks
 
+<pre>
 String personalcode = "48105215716";
 PersonalCode pc = new PersonalCode(personalcode);
 if(pc.getCodeIsValid()) {
@@ -12,7 +13,7 @@ if(pc.getCodeIsValid()) {
 } else {
   System.out.println(pc.getErrorText());
 }
-
+</pre>
 Isikukoodi genereerimiseks soo, sünniaja ja haigla koodiga
 
 String gender = "w";                // Sugu m/w või M/W
