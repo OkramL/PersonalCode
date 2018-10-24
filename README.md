@@ -62,7 +62,7 @@ Tulemus tuleb erinev, kuna tegemist on juhuslikkusega.
   }
 </pre>
 
-<h4>Result<h4>
+<h4>Result</h4>
 <pre>
   Isikukood aastate 1981 ja 1981 vahel k.a. => 38112153961
 </pre>
