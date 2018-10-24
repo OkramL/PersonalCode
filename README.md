@@ -14,8 +14,9 @@ if(pc.getCodeIsValid()) {
   System.out.println(pc.getErrorText());
 }
 </pre>
-Isikukoodi genereerimiseks soo, sünniaja ja haigla koodiga
 
+Isikukoodi genereerimiseks soo, sünniaja ja haigla koodiga
+<pre>
 String gender = "w";                // Sugu m/w või M/W
 String birthDate = "21.05.1981";    // Sünniaeg kujul DD.MM.YYYY
 int hospitalCode = 10;              // Haiglate kood 10 => Valga haigla. Number vahemikus 0 - 13 k.a. 13 => Välismaalane
@@ -24,12 +25,14 @@ PersonalCode pcGen = new PersonalCode(gender, birthDate, hospitalCode);
 if(!pcGen.getError()) {
   System.out.println(pcGen.getPersonalCode());
 }
-
+</pre>
 Isikukoodi genereerimiseks aastate vahemikus
 
+<pre>
 int start = 1981;
 int end = 1981;
 PersonalCode pcYear = new PersonalCode(start, end);
 if(!pcYear.getError()) {
     System.out.println("Isikukood aastate " + start + " ja " + end + " vahel k.a. => " + pcYear.getPersonalCode());
 }
+</pre>
