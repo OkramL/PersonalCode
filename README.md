@@ -1,7 +1,7 @@
 # PersonalCode
 Eesti isikukoodi kontrollimiseks, info saamiseks ja juhusliku isikukoodi genereerimiseks
 
-##Isikukoodi kontrollimiseks ja info saamiseks
+#Isikukoodi kontrollimiseks ja info saamiseks
 
 <pre>
 String personalcode = "48105215716";
@@ -15,7 +15,7 @@ if(pc.getCodeIsValid()) {
 }
 </pre>
 
-Isikukoodi genereerimiseks soo, sünniaja ja haigla koodiga
+#Isikukoodi genereerimiseks soo, sünniaja ja haigla koodiga
 <pre>
 String gender = "w";                // Sugu m/w või M/W
 String birthDate = "21.05.1981";    // Sünniaeg kujul DD.MM.YYYY
@@ -26,7 +26,8 @@ if(!pcGen.getError()) {
   System.out.println(pcGen.getPersonalCode());
 }
 </pre>
-Isikukoodi genereerimiseks aastate vahemikus
+
+#Isikukoodi genereerimiseks aastate vahemikus
 
 <pre>
 int start = 1981;
