@@ -1,7 +1,7 @@
 # PersonalCode
 Eesti isikukoodi kontrollimiseks, info saamiseks ja juhusliku isikukoodi genereerimiseks
 
-#Isikukoodi kontrollimiseks ja info saamiseks
+<h2>Isikukoodi kontrollimiseks ja info saamiseks</h2>
 
 <pre>
 String personalcode = "48105215716";
