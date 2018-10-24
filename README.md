@@ -14,23 +14,23 @@ if(pc.getCodeIsValid()) {
   System.out.println(pc.getErrorText());
 }
 </pre>
-<h4>Result</h4>
-<pre>
-Personalcode 48105215716
-Birth date 21.05.1981
-Day 21
-Month 05
-Full year 1981
-Short year 81
-Sex W
-Gender number 4
-Hospital code 571
-Hospital name Valga Haigla
-Control code 6
-Age today 37
-Child # in day 1
-</pre>
 
+  <h4>Result</h4>
+  <pre>
+  Personalcode 48105215716
+  Birth date 21.05.1981
+  Day 21
+  Month 05
+  Full year 1981
+  Short year 81
+  Sex W
+  Gender number 4
+  Hospital code 571
+  Hospital name Valga Haigla
+  Control code 6
+  Age today 37
+  Child # in day 1
+  </pre>
 
 <h2>Isikukoodi genereerimiseks soo, sünniaja ja haigla koodiga</h2>
 
@@ -44,6 +44,11 @@ if(!pcGen.getError()) {
   System.out.println(pcGen.getPersonalCode());
 }
 </pre>
+  <h4>Result<h4>
+  Tulemus tuleb erinev, kuna tegemist on juhuslikkusega.
+  <pre>
+    48105215847
+  <pre>
 
 <h2>Isikukoodi genereerimiseks aastate vahemikus</h2>
 
@@ -56,3 +61,7 @@ if(!pcYear.getError()) {
 }
 </pre>
 
+  <h4>Result<h4>
+  <pre>
+    Isikukood aastate 1981 ja 1981 vahel k.a. => 38112153961
+  <pre>
