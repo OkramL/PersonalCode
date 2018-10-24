@@ -15,7 +15,7 @@ if(pc.getCodeIsValid()) {
 }
 </pre>
 
-#Isikukoodi genereerimiseks soo, sünniaja ja haigla koodiga
+<h2>Isikukoodi genereerimiseks soo, sünniaja ja haigla koodiga</h2>
 <pre>
 String gender = "w";                // Sugu m/w või M/W
 String birthDate = "21.05.1981";    // Sünniaeg kujul DD.MM.YYYY
@@ -27,7 +27,7 @@ if(!pcGen.getError()) {
 }
 </pre>
 
-#Isikukoodi genereerimiseks aastate vahemikus
+<h2>Isikukoodi genereerimiseks aastate vahemikus</h2>
 
 <pre>
 int start = 1981;
